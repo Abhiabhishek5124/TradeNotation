@@ -1,0 +1,73 @@
+/* Navigation Bar */
+.navbar {
+    background-color: #00ff11;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+/* Dashboard Section */
+.dashboard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+    background-color: #f2f2f2;
+}
+
+.dashboard h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+.dashboard1 {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    width: 100%;
+}
+
+.dashboard1 .table {
+    flex: 8;
+    overflow: scroll;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.dashboard1 .dataCards {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.dashboard1 .dataCards .card1,
+.dashboard1 .dataCards .card2,
+.dashboard1 .dataCards .card3 {
+    height: 100px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.dashboard1 .dataCards p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
