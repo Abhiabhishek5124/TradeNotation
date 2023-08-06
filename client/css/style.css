@@ -1,6 +1,6 @@
 /* Navigation Bar */
 .navbar {
-    background-color: #00ff11;
+    background-color: #107659;
 }
 
 .navbar-brand {
@@ -70,4 +70,8 @@
     font-size: 16px;
     font-weight: bold;
     color: #333;
+}
+
+#btn:hover{
+    background-color: #1ba956;
 }
